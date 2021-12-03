@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+    padding: 40rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 30rpx;
+    padding: 40px 40px 40px 40rpx;
+    position: relative;
+    top: -50px;
+    box-shadow: 3px 3px 3px #f8f8f8, -3px 3px 3px #f8f8f8;
+}
+
+.login-icon {
+    font-size: var(--iconFontSize);
+    color: var(--iconColor);
+    margin-right: 30rpx;
+    font-weight: bolder;
+}
+
+.weui-btn {
+    margin-top: 40rpx;
+    background-color: var(--bottomPrimaryColor);
+}

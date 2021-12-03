@@ -1,0 +1,17 @@
+{
+  "name": "cxt",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0",
+    "weui-miniprogram": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,26 @@
+<view  class="wrapper">
+    <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+
+    <view class="container">
+        <logo />
+        <mp-form class="form" id="form" rules="{{rules}}" models="{{formData}}">
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view name="icon" class="iconfont icon-yonghu login-icon" />
+                    <input bindinput="formInputChange" data-field="name" class="weui-input" placeholder="请输入用户名"/>
+                </view>
+            </view>
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view name="icon" class="iconfont icon-jiesuo login-icon" />
+                    <input bindinput="formInputChange" data-field="password" class="weui-input"  password="{{isUsePasswordInput}}" placeholder="请输入密码"/>
+                    <view bindtap="togglePasswordIcon" wx:if="{{isUsePasswordInput}}" name="icon" class="iconfont icon-yanjing_yincang login-icon" />
+                    <view bindtap="togglePasswordIcon" wx:else name="icon" class="iconfont icon-xianshi login-icon" />
+                </view>
+            </view>
+        </mp-form>
+        <view slot="button">
+            <button class="weui-btn"  bindtap="submitForm">确定</button>
+        </view>
+    </view>
+</view>

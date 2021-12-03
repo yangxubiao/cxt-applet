@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/home/index",
+    "pages/funCenter/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#567df4",
+    "navigationBarTitleText": "车行通",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "logo": "/components/logo/logo",
+    "mp-cells": "weui-miniprogram/cells/cells",
+    "mp-cell": "weui-miniprogram/cell/cell",
+    "mp-form": "weui-miniprogram/form/form",
+    "mp-toptips": "weui-miniprogram/toptips/toptips"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#567df4",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./assets/imgs/home.png",
+        "selectedIconPath": "./assets/imgs/_home.png"
+      },
+      {
+        "pagePath": "pages/funCenter/index",
+        "text": "功能中心",
+        "iconPath": "./assets/imgs/funCenter.png",
+        "selectedIconPath": "./assets/imgs/_funCenter.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我",
+        "iconPath": "./assets/imgs/mine.png",
+        "selectedIconPath": "./assets/imgs/_mine.png"
+      }
+    ]
+  }
+}
