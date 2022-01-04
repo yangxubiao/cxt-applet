@@ -1,1 +1,20 @@
-/* pages/funCenter/index.wxss */
+.func-wrapper {
+    height: auto;
+    width: 100vw;
+    padding: 80rpx;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.func-item {
+    width: 40%;
+    height: 250rpx;
+    background-color: #f7f8fd;
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

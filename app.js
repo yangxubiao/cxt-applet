@@ -12,7 +12,7 @@ App({
     //     })
     // }
       wx.switchTab({
-          url: '/pages/home/index'
+          url: '/pages/funCenter/index'
       })
   },
   globalData: {

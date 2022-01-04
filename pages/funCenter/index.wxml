@@ -1,2 +1,6 @@
-<!--pages/funCenter/index.wxml-->
-<text>pages/funCenter/index.wxml</text>
+<view class="func-wrapper">
+    <view wx:for="{{funcCenterData}}" wx:key="index" class="func-item">
+        <image style="width: 50px; height: 50px;" src="{{item.imgPath}}"></image>
+        <text>{{item.title}}</text>
+    </view>
+</view>
